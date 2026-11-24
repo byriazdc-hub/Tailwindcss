@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+.aboutLeft{
+    width: 50%;
+    padding-left: 220px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: burlywood;
+
+}
+.aboutRight{
+    width: 50%;
+}
+.aboutRight img{
+    height: 100%;
+    width: 100%;
+}
+.aboutLeft h2 {
+    font-size: 95px;
+    font-weight: 700;
+    line-height: normal;
+}
+.aboutLeft h3{
+    font-size: 130px;
+    position: relative;
+}
